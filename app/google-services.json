@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "462227919420",
+    "firebase_url": "https://fingerprintdoorlock-8bb72.firebaseio.com",
+    "project_id": "fingerprintdoorlock-8bb72",
+    "storage_bucket": "fingerprintdoorlock-8bb72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462227919420:android:64cae1c5cda465ea7b2939",
+        "android_client_info": {
+          "package_name": "com.example.doorlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462227919420-1gs19tlp7879lfl1gh8mqup30gl4929g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Ug2gf9e5IUZG0p13nx2mRGBExQPLgu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462227919420-1gs19tlp7879lfl1gh8mqup30gl4929g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DoorLock</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="already_have_acc">
+        "<u>"Already have Account? Login Now"</u>"
+    </string>
+    <string name="Not_have_acc">
+        "<u>"Don't have an account?? Register Now"</u>"
+    </string>
+
+    <string name="forgot_password">
+        "<u>"Forgot Password?"</u>"
+    </string>
+
+    <string name="Open_nav_drawer">Open navigation drawer</string>
+    <string name="Close_nav_drawer">Close navigation drawer</string>
+
+    <string name="proj_des">"This Project deals with the idea of secure locking automation utilizing IOT for door unlocking system to provide essential security to our homes, bank lockers and related control operations and security caution through the GSM module .It uses an image capturing technique in an embedded system based on raspberry pi server system. RPi (Raspberry pi) controls the video camera for catching it for turning on a relay for door unlocking. The module contains a secured face recognizer for automatic door unlocking. The camera catches the facial picture and compares it with the image which is stored in the database .If the picture is found in the database then the door lock opens otherwise it will produce a Mobile notification that an unknown person is trying to gain access."</string>
+
+
+</resources>
