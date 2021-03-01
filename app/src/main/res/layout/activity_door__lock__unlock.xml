@@ -9,7 +9,7 @@
         android:id="@+id/drawer_layout"
         tools:openDrawer="start"
         android:fitsSystemWindows="true"
-    android:background="@drawable/back2"
+    android:background="@drawable/proback"
         >
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:id="@+id/toolbar"
-                android:background="#B0B0B0"
+                android:background="#B9000000"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 ></androidx.appcompat.widget.Toolbar>
@@ -48,7 +48,7 @@
                 android:layout_marginTop="50dp"
                 android:background="@drawable/round_btn"
                 android:text="Lock"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="18dp"
                 android:layout_marginLeft="70dp"
                 android:layout_marginRight="70dp"
@@ -65,7 +65,7 @@
                 android:text="UnLock"
                 android:layout_marginLeft="70dp"
                 android:layout_marginRight="70dp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="18dp"
                 android:layout_below="@+id/btn_lock"></Button>
 
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="40dp"
                     android:text="Door Lock"
-                    android:textColor="#F31818"
+                    android:textColor="#ADFFFFFF"
                     android:textSize="22sp"
                     android:layout_below="@id/btn_unlock"
                     android:layout_centerHorizontal="true"

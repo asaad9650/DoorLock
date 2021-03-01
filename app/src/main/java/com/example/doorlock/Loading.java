@@ -64,9 +64,9 @@ public class Loading extends AppCompatActivity
         final Runnable run = new Runnable() {
             public void run() {
                 //after login code
-               // Intent intent = new Intent(Loading.this , MainActivity.class);
-               // startActivity(intent);
-               // finish();
+                Intent intent = new Intent(Loading.this , MainActivity.class);
+                startActivity(intent);
+                finish();
 
                 Toast.makeText(Loading.this, "Signed in successfully as "+ user.getEmail(), Toast.LENGTH_LONG).show();
 

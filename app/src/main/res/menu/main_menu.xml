@@ -5,12 +5,6 @@
     tools:context=
         "com.example.mikejames.myapplication.MainActivity">
 <group>
-    <item
-        android:id="@+id/action_details"
-        android:orderInCategory="100"
-        android:title="Show Details"
-        app:showAsAction="never" />
-
 
     <item
         android:id="@+id/action_lock_unlock"
@@ -18,12 +12,20 @@
         android:title="Door Lock/Unlock"
         app:showAsAction="never" />
 
+
+    <item
+        android:id="@+id/action_fingerprint"
+        android:orderInCategory="100"
+        android:title="Register Fingerprint"
+        app:showAsAction="never"
+        />
     <item
         android:id="@+id/action_description"
         android:orderInCategory="100"
         android:title="Description"
         app:showAsAction="never"
         />
+
 </group>
 <group>
     <item

@@ -58,6 +58,7 @@ public class ShowDetails extends AppCompatActivity {
         setContentView(R.layout.activity_show_details);
 
         user = FirebaseAuth.getInstance().getCurrentUser();
+        googleAuth = FirebaseAuth.getInstance();
         entryInfo = new EntryInfo();
         lv_details = (ListView)findViewById(R.id.lv_database_list);
         txt_details = (TextView) findViewById(R.id.txt_showDetails);
@@ -65,7 +66,6 @@ public class ShowDetails extends AppCompatActivity {
         //Dialogue box
         builder = new AlertDialog.Builder(this);
 
-        googleAuth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
         ref = database.getReference().child("Entry_info");
 
@@ -129,6 +129,11 @@ public class ShowDetails extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                     return true;
+                }
+                else if(menuItem.getTitle().equals("Register Fingerprint")){
+                    Intent intent = new Intent(ShowDetails.this , RegisterFingerprint.class);
+                    startActivity(intent);
+                    finish();
                 }
                 else if (menuItem.getTitle().equals("Description"))
                 {

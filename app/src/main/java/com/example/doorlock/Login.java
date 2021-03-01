@@ -47,14 +47,14 @@ public class Login extends AppCompatActivity {
     FirebaseUser mAuth;
     FirebaseAuth firebaseAuth;
     AnimationDrawable lockAnimation;
-    Handler fhandler;
+//    Handler fhandler;
     private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        txt_login_Doorlock = (TextView)findViewById(R.id.txt_login);
         txt_forgot_pass = (TextView)findViewById(R.id.txt_forgot_password);
         img_logo = (ImageView)findViewById(R.id.img_logo);
         txt_login = (TextView) findViewById(R.id.txt_login);
@@ -170,6 +170,4 @@ public void btn_login(final View view) {
         super.onBackPressed();
         finish();
     }
-
-
 }

@@ -23,7 +23,7 @@
     <string name="Open_nav_drawer">Open navigation drawer</string>
     <string name="Close_nav_drawer">Close navigation drawer</string>
 
-    <string name="proj_des">"This Project deals with the idea of secure locking automation utilizing IOT for door unlocking system to provide essential security to our homes, bank lockers and related control operations and security caution through the GSM module .It uses an image capturing technique in an embedded system based on raspberry pi server system. RPi (Raspberry pi) controls the video camera for catching it for turning on a relay for door unlocking. The module contains a secured face recognizer for automatic door unlocking. The camera catches the facial picture and compares it with the image which is stored in the database .If the picture is found in the database then the door lock opens otherwise it will produce a Mobile notification that an unknown person is trying to gain access."</string>
+    <string name="proj_des">"In order to deal with security, authentication of legit users and in turn warning of unauthorized person plays an essential task. This project proposes to design an IOT based Surveillance system based on biometric train in terms of fingerprint which also incorporates lOT functionality for indication of illegitimate users. The proposed system utilizes fingerprint module for authentication procedure and uses electromechanical relay switch to control rotating door locking system for door entrance using Raspberry PI 3 processor. the system also deals with the module of intrusion user can easily select the intrusion area with the help of camera using the IOT based Wi-Fi connectivity using Raspberry PI 3."</string>
 
 
 </resources>
